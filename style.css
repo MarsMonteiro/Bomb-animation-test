@@ -1,0 +1,14 @@
+article {
+    position: absolute;
+    animation: fall 4s linear infinite;
+    @keyframes fall {
+        0% {
+            transform: translateY(-100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(100vh);
+            opacity: 1;
+    
+    }
+}
